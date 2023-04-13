@@ -61,14 +61,14 @@ header.header{
     margin: auto;
     position: relative;
 }
-.bg-triangle{
+/* .bg-triangle{
     position: absolute;
     left: 50%;
     top: 0;
     transform: translateX(-50%);
     width: 75%;
     transition: all 0.5s ease-in-out;
-}
+} */
 .game-body__circle-container-paper{
     position: absolute;
     left: 0;
@@ -272,9 +272,9 @@ header.header{
     opacity: 1;
     visibility: visible;
 }
-.bg-triangle--s2{
+/* .bg-triangle--s2{
     opacity: 0;
-}
+} */
 .you-picked,.house-picked{
     color: #eee;
     text-transform: uppercase;

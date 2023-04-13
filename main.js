@@ -38,7 +38,7 @@ function swipe(flag, arr, slim, tmpArr){
     // Stage 1 if FALSE. And Go To Stage 2
     else{
         // Add Stage 2 Class to Element
-        document.querySelector('.bg-triangle').classList.add('bg-triangle--s2');
+/*         document.querySelector('.bg-triangle').classList.add('bg-triangle--s2'); */
         document.querySelector('.choosed-item--com__bg-circle').classList.add('choosed-item--com__bg-circle--s2');
         
         // Separation of the elements of an array
@@ -178,7 +178,7 @@ function gameOver(state, hUser1, hCom1){
     playAgain.addEventListener('click', ()=>{initGame(btn=playAgain, heading=heading, hUser=hUser1, hCom=hCom1, gmovCon=gameOverCont)});
 }
 function initGame(btn,heading,hUser,hCom,gmovCon){
-    document.querySelector('.bg-triangle').classList.remove('bg-triangle--s2');
+/*     document.querySelector('.bg-triangle').classList.remove('bg-triangle--s2'); */
     document.querySelector('.choosed-item--com__bg-circle').classList.remove('choosed-item--com__bg-circle--s2');
     document.querySelector('.choosed-item--user').classList.remove('choosed-item--user--s4');
     document.querySelector('.choosed-item--com').classList.remove('choosed-item--com--s4');
